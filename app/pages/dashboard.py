@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import (
     QWidget,
     QVBoxLayout,
+    QHBoxLayout,
     QLabel,
     QGridLayout,
     QFrame,
@@ -26,13 +27,52 @@ class DashboardPage(QWidget):
         layout.setContentsMargins(35, 30, 35, 30)
         layout.setSpacing(20)
 
-        title = QLabel("PC Control Center Pro")
-        title.setStyleSheet("font-size:32px;font-weight:bold;")
+# ===== HEADER =====
 
-        subtitle = QLabel("System Dashboard")
+header = QHBoxLayout()
 
-        layout.addWidget(title)
-        layout.addWidget(subtitle)
+# Левая часть
+left_layout = QVBoxLayout()
+
+title = QLabel("PC Control Center Pro")
+title.setStyleSheet("""
+font-size:32px;
+font-weight:bold;
+""")
+
+subtitle = QLabel("System Dashboard")
+subtitle.setStyleSheet("""
+font-size:16px;
+color:#909090;
+""")
+
+left_layout.addWidget(title)
+left_layout.addWidget(subtitle)
+
+# Правая часть
+right_layout = QVBoxLayout()
+
+self.status_label = QLabel("🟢 System OK")
+self.status_label.setStyleSheet("""
+font-size:16px;
+font-weight:bold;
+color:#44cc44;
+""")
+
+self.time_label = QLabel("--:--:--")
+self.time_label.setStyleSheet("""
+font-size:14px;
+color:#909090;
+""")
+
+right_layout.addWidget(self.status_label)
+right_layout.addWidget(self.time_label)
+
+header.addLayout(left_layout)
+header.addStretch()
+header.addLayout(right_layout)
+
+layout.addLayout(header)
 
         cards = QGridLayout()
         cards.setSpacing(20)
