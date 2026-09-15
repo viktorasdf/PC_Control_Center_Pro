@@ -1,143 +1,235 @@
-import platform
-import psutil
-import subprocess
+from PySide6.QtWidgets import (
+    QWidget,
+    QLabel,
+    QVBoxLayout,
+    QHBoxLayout,
+    QFrame,
+)
+
+from app.services.system_info import (
+    get_cpu_info,
+    get_memory_info,
+    get_system_info,АА
+)
+
+from app.services.gpu_info import get_cached_gpu_info
 
 
-def get_cpu_name():
-    """
-    Получает нормальное название процессора через Windows.
-    """
+class HardwarePage(QWidget):
 
-    try:
-        result = subprocess.run(
-            [
-                "powershell",
-                "-NoProfile",
-                "-Command",
-                "(Get-CimInstance Win32_Processor).Name"
-            ],
-            capture_output=True,
-            text=True,
-            timeout=3
+    def __init__(self):
+        super().__init__()
+
+        self.main_layout = QVBoxLayout(self)
+
+        self.main_layout.setContentsMargins(
+            35, 30, 35, 30
         )
 
-        name = result.stdout.strip()
+        self.main_layout.setSpacing(20)
 
-        if name:
-            return name
+        # ==========================
+        # HEADER
+        # ==========================
 
-    except Exception:
-        pass
+        title = QLabel("Hardware")
 
-    name = platform.processor()
-
-    if name:
-        return name
-
-    return "Не определён"
-
-
-def get_hardware_info():
-    """
-    Возвращает основную информацию
-    об аппаратном обеспечении.
-    """
-
-    # ==================================================
-    # CPU
-    # ==================================================
-
-    cpu_name = get_cpu_name()
-
-    cpu_cores = psutil.cpu_count(
-        logical=False
-    )
-
-    cpu_threads = psutil.cpu_count(
-        logical=True
-    )
-
-    cpu_frequency = psutil.cpu_freq()
-
-    if cpu_frequency:
-
-        current_frequency = (
-            cpu_frequency.current
+        title.setStyleSheet(
+            "font-size:30px;font-weight:bold;"
         )
 
-        max_frequency = (
-            cpu_frequency.max
+        subtitle = QLabel(
+            "Computer hardware information"
         )
 
-    else:
+        subtitle.setStyleSheet(
+            "font-size:16px;color:#909090;"
+        )
 
-        current_frequency = 0
-        max_frequency = 0
+        self.main_layout.addWidget(title)
+        self.main_layout.addWidget(subtitle)
 
-    # ==================================================
-    # RAM
-    # ==================================================
+        # ==========================
+        # CARDS
+        # ==========================
 
-    memory = psutil.virtual_memory()
+        cards = QHBoxLayout()
+        cards.setSpacing(15)
 
-    ram_total_gb = (
-        memory.total / (1024 ** 3)
-    )
+        self.cpu_card = self.create_card(
+            "CPU"
+        )
 
-    # ==================================================
-    # SYSTEM
-    # ==================================================
+        self.gpu_card = self.create_card(
+            "GPU"
+        )
 
-    system = platform.system()
+        self.ram_card = self.create_card(
+            "RAM"
+        )
 
-    release = platform.release()
+        cards.addWidget(self.cpu_card)
+        cards.addWidget(self.gpu_card)
+        cards.addWidget(self.ram_card)
 
-    version = platform.version()
+        self.main_layout.addLayout(cards)
 
-    machine = platform.machine()
+        # ==========================
+        # SYSTEM
+        # ==========================
 
-    computer_name = platform.node()
+        system_title = QLabel("System")
 
-    return {
+        system_title.setStyleSheet(
+            "font-size:20px;font-weight:bold;"
+        )
 
-        "cpu": {
+        self.main_layout.addWidget(
+            system_title
+        )
 
-            "name": cpu_name,
+        self.system_card = self.create_card(
+            "Windows / Computer"
+        )
 
-            "cores": (
-                cpu_cores or 0
-            ),
+        self.main_layout.addWidget(
+            self.system_card
+        )
 
-            "threads": (
-                cpu_threads or 0
-            ),
+        self.main_layout.addStretch()
 
-            "frequency_current": (
-                current_frequency
-            ),
+        self.update_hardware()
 
-            "frequency_max": (
-                max_frequency
-            ),
-        },
+    def create_card(self, title):
 
-        "ram": {
+        card = QFrame()
 
-            "total_gb": (
-                ram_total_gb
-            ),
-        },
+        card.setObjectName("HardwareCard")
 
-        "system": {
+        card.setMinimumHeight(150)
 
-            "name": system,
+        layout = QVBoxLayout(card)
 
-            "release": release,
+        layout.setContentsMargins(
+            20, 15, 20, 15
+        )
 
-            "version": version,
+        layout.setSpacing(8)
 
-            "architecture": machine,
+        title_label = QLabel(title)
 
-            "computer": computer_name,
-        },
-    }
+        title_label.setStyleSheet(
+            "font-size:18px;font-weight:bold;"
+        )
+
+        info = QLabel("Loading...")
+
+        info.setWordWrap(True)
+
+        info.setStyleSheet(
+            "font-size:14px;color:#d0d0d0;"
+        )
+
+        layout.addWidget(title_label)
+        layout.addWidget(info)
+
+        card.info_label = info
+
+        return card
+
+    def update_hardware(self):
+
+        # ==========================
+        # CPU
+        # ==========================
+
+        cpu = get_cpu_info()
+
+        cpu_text = (
+            f"Model: {cpu.get('name', 'Unknown')}\n"
+            f"Cores: {cpu.get('cores', 0)}\n"
+            f"Threads: {cpu.get('threads', 0)}"
+        )
+
+        self.cpu_card.info_label.setText(
+            cpu_text
+        )
+
+        # ==========================
+        # RAM
+        # ==========================
+
+        memory = get_memory_info()
+
+        total = memory["total"] / (1024 ** 3)
+        used = memory["used"] / (1024 ** 3)
+
+        ram_text = (
+            f"Total: {total:.1f} GB\n"
+            f"Used: {used:.1f} GB\n"
+            f"Usage: {memory['percent']:.0f}%"
+        )
+
+        self.ram_card.info_label.setText(
+            ram_text
+        )
+
+        # ==========================
+        # GPU
+        # ==========================
+
+        gpu = get_cached_gpu_info()
+
+        gpu_name = gpu.get(
+            "name",
+            "Unknown GPU"
+        )
+
+        vendor = gpu.get(
+            "vendor",
+            "Unknown"
+        )
+
+        memory_total = gpu.get(
+            "memory_total",
+            0
+        )
+
+        driver = gpu.get(
+            "driver",
+            "Unknown"
+        )
+
+        gpu_usage = gpu.get(
+            "usage",
+            0
+        )
+
+        gpu_text = (
+            f"Model: {gpu_name}\n"
+            f"Vendor: {vendor}\n"
+            f"Memory: {memory_total:.1f} GB\n"
+            f"Driver: {driver}\n"
+            f"Usage: {gpu_usage:.0f}%"
+        )
+
+        self.gpu_card.info_label.setText(
+            gpu_text
+        )
+
+        # ==========================
+        # SYSTEM
+        # ==========================
+
+        system = get_system_info()
+
+        system_text = (
+            f"Computer: {system.get('computer', 'Unknown')}\n"
+            f"System: {system.get('system', 'Unknown')}\n"
+            f"Release: {system.get('release', 'Unknown')}\n"
+            f"Architecture: {system.get('machine', 'Unknown')}"
+        )
+
+        self.system_card.info_label.setText(
+            system_text
+        )

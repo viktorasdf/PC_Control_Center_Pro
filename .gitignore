@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 
@@ -16,13 +16,21 @@ Desktop.ini
 
 # Logs
 *.log
+logs/
 
 # Temporary files
 *.tmp
 
-# Backups
-backup/
+# Backups / temporary source copies
+*.bak
+*.BACKUP_*
+*before_*
 *_old.py
+
+# Generated / test data
+data/*.json
+app/data/*.json
+config/gpu_cache.json
 
 # Build
 dist/

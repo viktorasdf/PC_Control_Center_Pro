@@ -6,29 +6,47 @@ from PySide6.QtWidgets import (
     QVBoxLayout,
 )
 
+from app.themes.styles import (
+    CARD_PADDING,
+    CARD_SPACING,
+    TITLE_SIZE,
+    VALUE_SIZE,
+)
+
 
 class InfoCard(QFrame):
 
     def __init__(self, title: str):
         super().__init__()
 
+
         self.setFrameShape(QFrame.StyledPanel)
         self.setObjectName("InfoCard")
+        self.setMinimumHeight(170)
 
         layout = QVBoxLayout(self)
-        layout.setSpacing(10)
+        layout.setContentsMargins(
+            CARD_PADDING,
+            CARD_PADDING,
+            CARD_PADDING,
+            CARD_PADDING,
+        )
+        layout.setSpacing(CARD_SPACING)
+        layout.setAlignment(Qt.AlignCenter)
 
         self.title_label = QLabel(title)
         self.title_label.setAlignment(Qt.AlignCenter)
         self.title_label.setStyleSheet(
-            "font-size:18px;font-weight:bold;"
+            f"font-size:{TITLE_SIZE}px;font-weight:bold;"
         )
+
+
 
         self.value_label = QLabel("--")
         self.value_label.setAlignment(Qt.AlignCenter)
         self.value_label.setStyleSheet(
-            "font-size:30px;font-weight:bold;"
-        )
+    f"font-size:{VALUE_SIZE}px;font-weight:bold;"
+)
 
         self.progress = QProgressBar()
         self.progress.setRange(0, 100)

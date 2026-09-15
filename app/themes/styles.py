@@ -1,0 +1,25 @@
+# ==========================
+# PC Control Center Pro
+# Design System 1.0
+# ==========================
+
+# Colors
+BACKGROUND = "#181A1F"
+CARD_BACKGROUND = "#242730"
+
+PRIMARY_TEXT = "#FFFFFF"
+SECONDARY_TEXT = "#909090"
+
+CPU_COLOR = "#4DA3FF"
+RAM_COLOR = "#42D392"
+GPU_COLOR = "#A970FF"
+DISK_COLOR = "#F5C542"
+NETWORK_COLOR = "#FF9F43"
+
+# Sizes
+CARD_RADIUS = 16
+CARD_PADDING = 20
+CARD_SPACING = 14
+
+TITLE_SIZE = 18
+VALUE_SIZE = 30
