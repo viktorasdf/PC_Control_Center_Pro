@@ -111,11 +111,16 @@ The public Windows release is available from the project's GitHub Releases page.
 
 ### PC Control Center Pro 2.0.0
 
+**Recommended:** Download the installer and run it to install the application.
+
+**Installer:** `PC_Control_Center_Pro_2.0_Setup.exe`
+
+Alternatively, download the ZIP package and extract it before running the application.
+
 **Package:** `PC_Control_Center_Pro_2.0.zip`
 
 The release is intended for **Windows 11 64-bit** systems.
 
----
 
 ## ▶️ Running from Source
 
