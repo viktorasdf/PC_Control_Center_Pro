@@ -371,14 +371,25 @@ You can help improve PC Control Center Pro by:
 For larger changes, opening an Issue first is recommended so the proposed improvement can be discussed.
 
 
-
 ## ⭐ Support the Project
 
-If you find **PC Control Center Pro** useful, consider giving the repository a ⭐ on GitHub.
+If you find **PC Control Center Pro** useful, you can support the project by:
 
-Your feedback and support help the project continue to develop.
+* ⭐ Starring the repository
+* 🐛 Reporting bugs
+* 💡 Suggesting improvements
+* 🧪 Testing new releases
+* 📢 Sharing the project with other Windows users
 
----
+Every star, report, and piece of feedback helps the project grow.
+
+### 🔗 Project
+
+**PC Control Center Pro**
+
+https://github.com/viktorasdf/PC_Control_Center_Pro
+
+
 
 ## 📌 Release
 
