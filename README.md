@@ -406,5 +406,7 @@ The current release is available for **Windows 11 64-bit** as:
 ![PC Control Center Pro - System Tools](system_tools.png)
 
 ---
+![PC Control Center Pro - Monitoring](monitoring.png)
 
+---
 
