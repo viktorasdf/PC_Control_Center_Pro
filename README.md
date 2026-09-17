@@ -16,10 +16,7 @@
 
 ---
 
-
-
-
-
+![PC Control Center Pro Dashboard](dashboard.png)
 
 ## ✨ Features
 
@@ -137,6 +134,21 @@ The application can interact directly with Windows system components when requir
 
 ---
 
+## 📸 Screenshots
+
+### 🛠️ System Tools
+
+![PC Control Center Pro - System Tools](system_tools.png)
+
+### 📊 Monitoring
+
+![PC Control Center Pro - Monitoring](monitoring.png)
+
+### 🤖 AI Assistant
+
+![PC Control Center Pro - AI Assistant](ai_assistant.png)
+
+---
 
 ## 🖥️ System Requirements
 
@@ -164,6 +176,7 @@ The Windows release is available in two formats:
 * **Installer** — recommended for most users
 * **Portable ZIP** — extract and run without a traditional installation
 
+---
 
 ## 📦 Download
 
@@ -195,11 +208,9 @@ Download and extract the ZIP package if you prefer to run the application withou
 
 Download PC Control Center Pro only from the official GitHub Releases page.
 
-[Download the latest release](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest?utm_source=chatgpt.com)
+[Download the latest release](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest)
 
 ---
-
-
 
 ## ▶️ Running from Source
 
@@ -237,6 +248,7 @@ The project uses **Python** and **PySide6** for the Windows desktop interface.
 
 > Some application features may require administrator privileges.
 
+---
 
 ## 🔧 Project Structure
 
@@ -262,6 +274,7 @@ PC_Control_Center_Pro/
 
 The Windows release also includes packaged versions of the application, so end users do not need to install Python.
 
+---
 
 ## 🔐 Security & Privacy
 
@@ -286,6 +299,7 @@ Before performing maintenance or system-management operations:
 
 PC Control Center Pro does not replace Windows security software or system backup solutions.
 
+---
 
 ## 🚧 Development Status
 
@@ -316,6 +330,7 @@ Planned improvements may include:
 * Additional language support
 * Performance and stability improvements
 
+---
 
 ## 🐛 Bug Reports & Suggestions
 
@@ -333,6 +348,8 @@ When reporting a problem, include as much of the following information as possib
 * Screenshots, if available
 
 Clear reports help make it easier to investigate and improve the application.
+
+---
 
 ## 🤝 Contributing
 
@@ -356,6 +373,7 @@ You can help improve PC Control Center Pro by:
 
 For larger changes, opening an Issue first is recommended so the proposed improvement can be discussed.
 
+---
 
 ## ⭐ Support the Project
 
@@ -371,10 +389,9 @@ Every star, report, and piece of feedback helps the project grow.
 
 ### 🔗 Project
 
-**PC Control Center Pro**
+**[PC Control Center Pro](https://github.com/viktorasdf/PC_Control_Center_Pro)**
 
-https://github.com/viktorasdf/PC_Control_Center_Pro
-
+---
 
 ## 📌 Release
 
@@ -396,17 +413,3 @@ The current release is available for **Windows 11 64-bit** as:
 > **Monitor. Diagnose. Maintain.**
 >
 > **One control center for your Windows PC.**
-
-![PC Control Center Pro Dashboard](dashboard.png)
-
----
-![PC Control Center Pro - AI Assistant](ai_assistant.png)
----
-
-![PC Control Center Pro - System Tools](system_tools.png)
-
----
-![PC Control Center Pro - Monitoring](monitoring.png)
-
----
-[![Windows 11](...
