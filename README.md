@@ -29,11 +29,7 @@ Download the latest release, install the application, and start monitoring your 
 ---
 
 
-## 🚀 Version 2.0.0
 
-**PC Control Center Pro 2.0.0** is the first public release of the project.
-
----
 
 ## ✨ Features
 
