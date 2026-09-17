@@ -333,17 +333,21 @@ Planned improvements may include:
 
 ## 🐛 Bug Reports & Suggestions
 
-If you find a problem, have a feature request, or want to suggest an improvement, please open an **Issue** in this repository.
+Found a bug or have an idea for improving PC Control Center Pro?
 
-When reporting a problem, please include:
+Please open an **Issue** in the GitHub repository.
+
+When reporting a problem, include as much of the following information as possible:
 
 * Windows version
 * Application version
 * Description of the problem
-* Steps to reproduce it
-* Relevant error messages or screenshots
+* Steps to reproduce the issue
+* Relevant error messages
+* Screenshots, if available
 
----
+Clear reports help make it easier to investigate and improve the application.
+
 
 ## 🤝 Contributing
 
