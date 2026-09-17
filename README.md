@@ -254,27 +254,28 @@ The project uses **Python** and **PySide6** for the Windows desktop interface.
 
 ## 🔧 Project Structure
 
+The project is organized into separate modules for the user interface, system monitoring, diagnostics, and supporting services.
+
 ```text
 PC_Control_Center_Pro/
 │
 ├── app/
-│   ├── core/
-│   ├── pages/
-│   ├── services/
+│   ├── core/          # Application core and main window
+│   ├── pages/         # Dashboard and application pages
+│   ├── services/      # Monitoring, diagnostics and system services
 │   └── ...
 │
-├── docs/
+├── docs/              # Project documentation
 │
-├── diagnose_qt_text.py
-├── gpu_test.ps1
-├── main.py
-├── requirements.txt
-├── run.bat
+├── main.py            # Application entry point
+├── requirements.txt   # Python dependencies
+├── run.bat            # Windows launcher
 ├── PC_Control_Center_Pro_2.0.spec
 └── README.md
 ```
 
----
+The Windows release also includes packaged versions of the application, so end users do not need to install Python.
+
 
 ## 🔐 Security & Privacy
 
