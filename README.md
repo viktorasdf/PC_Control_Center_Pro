@@ -16,17 +16,7 @@
 
 ---
 
-## 🚀 Download
 
-### Windows 11 — 64-bit
-
-**No Python installation required.**
-
-👉 **[Download PC Control Center Pro 2.0.0](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest)**
-
-Download the latest release, install the application, and start monitoring your PC.
-
----
 
 
 
