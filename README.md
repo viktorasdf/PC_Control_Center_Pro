@@ -348,14 +348,29 @@ When reporting a problem, include as much of the following information as possib
 
 Clear reports help make it easier to investigate and improve the application.
 
-
 ## 🤝 Contributing
 
-Suggestions, bug reports, testing feedback, and improvements are welcome.
+Contributions and feedback are welcome.
 
-Please open an Issue or Pull Request to contribute to the project.
+You can help improve PC Control Center Pro by:
 
----
+* Reporting bugs
+* Suggesting new features
+* Testing new releases
+* Improving documentation
+* Submitting Pull Requests
+
+### Getting Started
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test the application
+5. Submit a Pull Request
+
+For larger changes, opening an Issue first is recommended so the proposed improvement can be discussed.
+
+
 
 ## ⭐ Support the Project
 
