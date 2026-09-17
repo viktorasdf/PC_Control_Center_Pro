@@ -154,10 +154,10 @@ The application can interact directly with Windows system components when requir
 
 ## 🖥️ System Requirements
 
-### Minimum
+### Supported Platform
 
-* Windows 11
-* 64-bit system
+* **Windows 11**
+* **64-bit system**
 * Python is **not required** for the packaged Windows release
 
 ### Recommended
@@ -167,9 +167,17 @@ The application can interact directly with Windows system components when requir
 * At least 4 GB RAM
 * Administrator privileges for some system maintenance operations
 
+### AI Features
+
 An Internet connection may be required for AI-related functionality.
 
----
+### Distribution
+
+The Windows release is available in two formats:
+
+* **Installer** — recommended for most users
+* **Portable ZIP** — extract and run without a traditional installation
+
 
 ## 📦 Download
 
