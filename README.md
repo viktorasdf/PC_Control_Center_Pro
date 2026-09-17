@@ -390,15 +390,27 @@ Every star, report, and piece of feedback helps the project grow.
 https://github.com/viktorasdf/PC_Control_Center_Pro
 
 
-
 ## 📌 Release
 
-**PC Control Center Pro v2.0.0**
+### PC Control Center Pro 2.0.0
 
-First public release — September 2026.
+**First public release — September 2026**
+
+The current release is available for **Windows 11 64-bit** as:
+
+* 🧩 Windows Installer
+* 📦 Portable ZIP package
+
+👉 **[Download PC Control Center Pro 2.0.0](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest)**
 
 ---
 
-### Monitor. Diagnose. Maintain.
+### 🖥️ PC Control Center Pro
+
+**Monitor. Diagnose. Maintain.**
+
+**One control center for your Windows PC.**
+
+
 
 **One place for your Windows PC.**
