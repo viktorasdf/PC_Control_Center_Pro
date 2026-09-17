@@ -393,9 +393,15 @@ The current release is available for **Windows 11 64-bit** as:
 
 ### 🖥️ PC Control Center Pro
 
-**Monitor. Diagnose. Maintain.**
+> **Monitor. Diagnose. Maintain.**
+>
+> **One control center for your Windows PC.**
 
-**One control center for your Windows PC.**
+![PC Control Center Pro Dashboard](dashboard.png)
+
+---
+
+[![Windows 11](...
 
 
 
