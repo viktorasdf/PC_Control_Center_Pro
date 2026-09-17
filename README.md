@@ -33,9 +33,13 @@ Download the latest release, install the application, and start monitoring your 
 
 **PC Control Center Pro 2.0.0** is the first public release of the project.
 
-### ✨ Features
+---
 
-#### 📊 Monitoring Dashboard
+## ✨ Features
+
+### 📊 Monitoring Dashboard
+
+Get a quick overview of your PC's current performance.
 
 * Real-time CPU monitoring
 * Real-time GPU monitoring
@@ -46,27 +50,33 @@ Download the latest release, install the application, and start monitoring your 
 * System information overview
 * Visual system status indicators
 
-#### 🛠️ System Tools
+---
 
-Access commonly used Windows system utilities from one interface.
+### 🛠️ System Tools
+
+Access commonly used Windows utilities from one convenient interface.
 
 * Windows system tools
 * Maintenance utilities
 * Security-related tools
 * System management shortcuts
 
-#### ⚡ Startup Manager
+---
 
-Manage applications that start with Windows.
+### ⚡ Startup Manager
+
+Manage applications that start automatically with Windows.
 
 * View startup applications
 * Inspect startup entries
 * Enable or disable startup items
 * Startup analysis
 
-#### 🧹 PC Maintenance
+---
 
-Tools for keeping Windows clean and responsive.
+### 🧹 PC Maintenance
+
+Tools designed to help keep Windows clean and responsive.
 
 * System cleanup
 * Temporary file cleanup
@@ -75,9 +85,11 @@ Tools for keeping Windows clean and responsive.
 
 > Some maintenance operations may require administrator privileges.
 
-#### 🤖 AI Assistant & Diagnostics
+---
 
-Built-in diagnostic functionality helps analyze system conditions and identify potential problems.
+### 🤖 AI Assistant & Diagnostics
+
+Analyze system conditions and identify potential performance problems.
 
 The diagnostic system can evaluate:
 
@@ -90,7 +102,23 @@ The diagnostic system can evaluate:
 
 AI-related functionality may require an Internet connection.
 
-#### 🌍 Multilingual Interface
+---
+
+### 🖥️ Hardware Information
+
+View important information about your computer and installed hardware.
+
+* Processor information
+* CPU cores
+* Memory information
+* Graphics hardware
+* Storage information
+* Windows information
+* System model
+
+---
+
+### 🌍 Multilingual Interface
 
 The application currently supports:
 
@@ -102,14 +130,27 @@ The application currently supports:
 * 🇪🇸 Spanish
 * 🇫🇷 French
 
-#### 🎨 Themes
+---
 
-* Dark theme
-* Light theme
+### 🎨 Themes
+
+Choose the interface style that works best for you.
+
+* 🌙 Dark theme
+* ☀️ Light theme
 
 The interface is designed for a modern Windows desktop experience.
 
 ---
+
+### 🔒 Local PC Utility
+
+PC Control Center Pro is designed primarily as a local Windows desktop application.
+
+The application can interact directly with Windows system components when required for monitoring, diagnostics, or maintenance operations.
+
+---
+
 
 ## 🖥️ System Requirements
 
