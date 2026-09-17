@@ -279,13 +279,27 @@ The Windows release also includes packaged versions of the application, so end u
 
 ## 🔐 Security & Privacy
 
-PC Control Center Pro is intended as a local Windows desktop utility.
+PC Control Center Pro is designed as a local Windows desktop utility.
 
-Some features interact directly with Windows system components and may require elevated administrator privileges.
+The application may interact directly with Windows system components for monitoring, diagnostics, maintenance, and system management.
 
-Users should review system operations before running maintenance or optimization functions and should keep important data backed up.
+### Administrator Privileges
 
----
+Some features may require administrator privileges to perform system-level operations.
+
+Windows may display a User Account Control (UAC) prompt when elevated permissions are required.
+
+### User Responsibility
+
+Before performing maintenance or system-management operations:
+
+* Review the selected operation
+* Keep important files backed up
+* Use administrator privileges only when required
+* Download the application from the official GitHub Releases page
+
+PC Control Center Pro does not replace Windows security software or system backup solutions.
+
 
 ## 🚧 Development Status
 
