@@ -173,19 +173,38 @@ An Internet connection may be required for AI-related functionality.
 
 ## 📦 Download
 
-The public Windows release is available from the project's GitHub Releases page.
+### 🪟 Windows 11 — 64-bit
 
-### PC Control Center Pro 2.0.0
+The easiest way to get started is to download the latest Windows release.
 
-**Recommended:** Download the installer and run it to install the application.
+### 👉 [⬇️ Download PC Control Center Pro 2.0.0](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest)
 
-**Installer:** `PC_Control_Center_Pro_2.0_Setup.exe`
+**No Python installation is required.**
 
-Alternatively, download the ZIP package and extract it before running the application.
+#### Available packages
 
-**Package:** `PC_Control_Center_Pro_2.0.zip`
+**Installer — recommended**
 
-The release is intended for **Windows 11 64-bit** systems.
+`PC_Control_Center_Pro_2.0_Setup.exe`
+
+Use the installer for the easiest installation experience.
+
+**Portable ZIP**
+
+`PC_Control_Center_Pro_2.0.zip`
+
+Download and extract the ZIP package if you prefer to run the application without using the installer.
+
+> ⚠️ Some system maintenance and management operations may require administrator privileges.
+
+### 📌 Important
+
+Download PC Control Center Pro only from the official GitHub Releases page.
+
+[Download the latest release](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest?utm_source=chatgpt.com)
+
+---
+
 
 
 ## ▶️ Running from Source
