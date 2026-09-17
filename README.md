@@ -1,8 +1,33 @@
-# PC Control Center Pro
+# 🖥️ PC Control Center Pro
 
-**Modern Windows PC monitoring, diagnostics and maintenance utility.**
+### Modern Windows PC Monitoring, Diagnostics & System Tools
 
-PC Control Center Pro is a modern Windows desktop application designed to help users monitor system performance, inspect hardware, manage startup applications, run maintenance tools, and diagnose common PC issues from one convenient interface.
+**PC Control Center Pro** is a modern Windows desktop utility that brings PC monitoring, hardware information, diagnostics, maintenance tools, startup management, and essential system utilities together in one convenient interface.
+
+> **Monitor. Diagnose. Maintain.**
+>
+> **One control center for your Windows PC.**
+
+[![Windows 11](https://img.shields.io/badge/Windows-11-0078D4?logo=windows\&logoColor=white)](#)
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python\&logoColor=white)](#)
+[![PySide6](https://img.shields.io/badge/PySide6-Qt-41CD52?logo=qt\&logoColor=white)](#)
+[![Latest Release](https://img.shields.io/github/v/release/viktorasdf/PC_Control_Center_Pro?label=Latest%20Release)](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/viktorasdf/PC_Control_Center_Pro/total?label=Downloads)](https://github.com/viktorasdf/PC_Control_Center_Pro/releases)
+
+---
+
+## 🚀 Download
+
+### Windows 11 — 64-bit
+
+**No Python installation required.**
+
+👉 **[Download PC Control Center Pro 2.0.0](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest)**
+
+Download the latest release, install the application, and start monitoring your PC.
+
+---
+
 
 ## 🚀 Version 2.0.0
 
