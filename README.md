@@ -217,21 +217,40 @@ Download PC Control Center Pro only from the official GitHub Releases page.
 
 ## ▶️ Running from Source
 
-If you want to run the project directly from Python:
+Developers can run **PC Control Center Pro** directly from the Python source code.
+
+### Requirements
+
+* Windows 11 64-bit
+* Python 3.13 or compatible version
+* Git
+* Internet connection for installing dependencies and AI-related functionality
+
+### Installation
+
+Clone the repository:
 
 ```bash
-python main.py
+git clone https://github.com/viktorasdf/PC_Control_Center_Pro.git
+cd PC_Control_Center_Pro
 ```
 
-Install the required dependencies first:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-The project uses Python and PySide6 for the desktop interface.
+### Run the application
 
----
+```bash
+python main.py
+```
+
+The project uses **Python** and **PySide6** for the Windows desktop interface.
+
+> Some application features may require administrator privileges.
+
 
 ## 🔧 Project Structure
 
