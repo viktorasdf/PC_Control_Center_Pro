@@ -305,18 +305,31 @@ PC Control Center Pro does not replace Windows security software or system backu
 
 **Current version: 2.0.0**
 
-The project is actively evolving.
+PC Control Center Pro is actively evolving.
 
-Future versions may include:
+The current public release provides:
+
+* PC performance monitoring
+* Hardware information
+* System diagnostics
+* Windows system tools
+* Startup management
+* PC maintenance utilities
+* AI-assisted analysis
+* Multilingual interface
+* Light and Dark themes
+
+### Future Development
+
+Planned improvements may include:
 
 * Additional monitoring capabilities
 * More diagnostic features
 * Additional Windows utilities
 * Further interface improvements
 * Additional language support
-* Performance improvements
+* Performance and stability improvements
 
----
 
 ## 🐛 Bug Reports & Suggestions
 
