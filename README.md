@@ -29,7 +29,7 @@ It combines **system monitoring, hardware monitoring, PC diagnostics, startup ma
 
 ### 📊 Monitoring Dashboard
 
-Get a quick overview of your PC's current performance.
+Get a quick overview of your **Windows PC performance** with real-time system monitoring.
 
 * Real-time CPU monitoring
 * Real-time GPU monitoring
@@ -39,6 +39,9 @@ Get a quick overview of your PC's current performance.
 * Real-time performance graph
 * System information overview
 * Visual system status indicators
+
+Monitor **CPU, GPU, RAM and disk usage** in one convenient Windows desktop dashboard.
+
 
 ---
 
