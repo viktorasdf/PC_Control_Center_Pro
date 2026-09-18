@@ -47,12 +47,15 @@ Monitor **CPU, GPU, RAM and disk usage** in one convenient Windows desktop dashb
 
 ### 🛠️ System Tools
 
-Access commonly used Windows utilities from one convenient interface.
+Access commonly used **Windows system tools and utilities** from one convenient interface.
 
 * Windows system tools
 * Maintenance utilities
 * Security-related tools
 * System management shortcuts
+
+Quickly access essential **Windows utilities, system management tools, maintenance tools, and security tools** without searching through multiple Windows menus.
+
 
 ---
 
