@@ -1,12 +1,19 @@
 # 🖥️ PC Control Center Pro
 
+[svg](https://github.com/viktorasdf/PC_Control_Center_Pro/blob/main/README.md#%EF%B8%8F-pc-control-center-pro)
+
 ### Modern Windows PC Monitoring, Diagnostics & System Tools
 
-**PC Control Center Pro** is a modern Windows desktop utility that brings PC monitoring, hardware information, diagnostics, maintenance tools, startup management, and essential system utilities together in one convenient interface.
+[svg](https://github.com/viktorasdf/PC_Control_Center_Pro/blob/main/README.md#modern-windows-pc-monitoring-diagnostics--system-tools)
+
+**PC Control Center Pro** is a modern **Windows 11 PC monitoring and diagnostics utility** for monitoring CPU, GPU, RAM and disk usage, viewing hardware information, managing startup applications, performing PC maintenance, and accessing essential Windows system tools from one convenient desktop application.
+
+It combines **system monitoring, hardware monitoring, PC diagnostics, startup management, maintenance tools, and system utilities** in a single Windows desktop interface.
 
 > **Monitor. Diagnose. Maintain.**
 >
 > **One control center for your Windows PC.**
+
 
 [![Windows 11](https://img.shields.io/badge/Windows-11-0078D4?logo=windows\&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python\&logoColor=white)](#)
