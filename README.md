@@ -1,10 +1,6 @@
 # 🖥️ PC Control Center Pro
 
-[svg](https://github.com/viktorasdf/PC_Control_Center_Pro/blob/main/README.md#%EF%B8%8F-pc-control-center-pro)
-
 ### Modern Windows PC Monitoring, Diagnostics & System Tools
-
-[svg](https://github.com/viktorasdf/PC_Control_Center_Pro/blob/main/README.md#modern-windows-pc-monitoring-diagnostics--system-tools)
 
 **PC Control Center Pro** is a modern **Windows 11 PC monitoring and diagnostics utility** for monitoring CPU, GPU, RAM and disk usage, viewing hardware information, managing startup applications, performing PC maintenance, and accessing essential Windows system tools from one convenient desktop application.
 
@@ -13,7 +9,6 @@ It combines **system monitoring, hardware monitoring, PC diagnostics, startup ma
 > **Monitor. Diagnose. Maintain.**
 >
 > **One control center for your Windows PC.**
-
 
 [![Windows 11](https://img.shields.io/badge/Windows-11-0078D4?logo=windows\&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python\&logoColor=white)](#)
@@ -42,7 +37,6 @@ Get a quick overview of your **Windows PC performance** with real-time system mo
 
 Monitor **CPU, GPU, RAM and disk usage** in one convenient Windows desktop dashboard.
 
-
 ---
 
 ### 🛠️ System Tools
@@ -56,7 +50,6 @@ Access commonly used **Windows system tools and utilities** from one convenient 
 
 Quickly access essential **Windows utilities, system management tools, maintenance tools, and security tools** without searching through multiple Windows menus.
 
-
 ---
 
 ### ⚡ Startup Manager
@@ -69,7 +62,6 @@ Manage and analyze **Windows startup applications** from one convenient interfac
 * Startup analysis
 
 Use the **Windows startup manager** to review applications that launch automatically, identify unnecessary startup items, and manage startup entries.
-
 
 ---
 
@@ -223,8 +215,6 @@ Download and extract the ZIP package if you prefer to run the application withou
 ### 📌 Important
 
 Download PC Control Center Pro only from the official GitHub Releases page.
-
-[Download the latest release](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest)
 
 ---
 
