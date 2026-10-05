@@ -1,24 +1,33 @@
-# 🖥️ PC Control Center Pro
+# PC Control Center Pro
 
-### Modern Windows PC Monitoring, Diagnostics & System Tools
+**Monitor. Diagnose. Maintain.**
 
-**PC Control Center Pro** is a modern **Windows 11 PC monitoring and diagnostics utility** for monitoring CPU, GPU, RAM and disk usage, viewing hardware information, managing startup applications, performing PC maintenance, and accessing essential Windows system tools from one convenient desktop application.
+A free Windows desktop utility that brings everyday PC monitoring, system tools, maintenance, and diagnostics together in one place.
 
-It combines **system monitoring, hardware monitoring, PC diagnostics, startup management, maintenance tools, and system utilities** in a single Windows desktop interface.
+![PC Control Center Pro Dashboard](dashboard.png)
 
-> **Monitor. Diagnose. Maintain.**
->
-> **One control center for your Windows PC.**
+### Download
 
-[![Windows 11](https://img.shields.io/badge/Windows-11-0078D4?logo=windows\&logoColor=white)](#)
-[![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python\&logoColor=white)](#)
-[![PySide6](https://img.shields.io/badge/PySide6-Qt-41CD52?logo=qt\&logoColor=white)](#)
-[![Latest Release](https://img.shields.io/github/v/release/viktorasdf/PC_Control_Center_Pro?label=Latest%20Release)](https://github.com/viktorasdf/PC_Control_Center_Pro/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/viktorasdf/PC_Control_Center_Pro/total?label=Downloads)](https://github.com/viktorasdf/PC_Control_Center_Pro/releases)
+**Windows 10 / 11**
+
+- **Installer** — install normally on your PC
+- **Portable ZIP** — run without installation
+- No Python installation required for the packaged application
+
+### What can you do with PC Control Center Pro?
+
+- 📊 Monitor **CPU, GPU, RAM and disk**
+- ⚡ Manage **startup applications**
+- 🛠 Access useful **Windows system tools**
+- 🔧 Run **PC maintenance and cleanup tasks**
+- 🔍 Check and diagnose **system and hardware information**
+- 🤖 Use **AI-assisted analysis**
+- 🌙 Choose **dark or light mode**
+- 🌍 Available in **7 languages**
 
 ---
 
-![PC Control Center Pro Dashboard](dashboard.png)
+---
 
 ## ✨ Features
 
