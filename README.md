@@ -8,7 +8,7 @@ A free Windows desktop utility that brings everyday PC monitoring, system tools,
 
 ### Download
 
-**Windows 10 / 11**
+**Windows 11**
 
 - **Installer** — install normally on your PC
 - **Portable ZIP** — run without installation
@@ -25,7 +25,7 @@ A free Windows desktop utility that brings everyday PC monitoring, system tools,
 - 🌙 Choose **dark or light mode**
 - 🌍 Available in **7 languages**
 
----
+
 
 ---
 
